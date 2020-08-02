@@ -12,9 +12,9 @@ hasCJKLanguage = true
 
 [params]
     author = "Karoline Rodrigues"
-    avatar = "rKarol3.png"
+    avatar = "avatar.jpg"
     # avatarDescription = "My avatar description"
-    favicon = "favicone.ico"
+    favicon = "favicon.ico"
     description = """
         Paulista que mora em Curitiba há 10 anos, encontrei nessa cidade fria, meu lugar ao sol.
 
