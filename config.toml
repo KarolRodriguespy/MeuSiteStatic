@@ -1,0 +1,63 @@
+baseurl = "https://karolinerodrigues.netlify.com"
+title = "Karoline Rodrigues"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
+
+[params]
+    author = "Karoline Rodrigues"
+    avatar = "Karol2.jpg"
+    # avatarDescription = "My avatar description"
+    favicon = "favicone.ico"
+    description = """
+        Paulista que mora em Curitiba há 10 anos, encontrei nessa cidade fria, meu lugar ao sol.
+
+          Gosto de cozinhar nas horas vagas, fazer piadas ruins e tomar uma cerveja.
+
+        Atuei durante muito tempo na área de experiência do cliente e há alguns anos encontrei meu espaço na área de tecnologia, começando pela área de suporte e depois na área de dados.
+        Ah, falando da minha formação eu sou graduada em Gestão de TI e pós-graduanda em Big Data e Data Science pela UFPR.
+    """
+    publicationYear = "2020"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    taxonomy = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "Portfólio"
+    # name = "Blog" #If display text link, cancel comment out
+    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
+    url = "/blog/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/comkrodrigues"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/KarolRodriguespy"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:kr.araujo.12@gmail.com"
+    weight = 40
