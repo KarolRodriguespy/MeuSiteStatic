@@ -1,4 +1,4 @@
-baseurl = "https://karolinerodrigues.netlify.com"
+baseurl = "https://karolinerodrigues.netlify.com/"
 title = "Karoline Rodrigues"
 theme = "pulp"
 canonifyurls = true
